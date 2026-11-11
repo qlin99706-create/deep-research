@@ -1,0 +1,8 @@
+interface:
+  display_name: "deep-research"
+  short_description: "公开深度调研：主体清楚就开跑，交付一份 PDF 报告"
+  brand_color: "#101516"
+  default_prompt: "用户用自然语言说要调研什么。主体清楚就不要采访，直接跑完全程。内部写一份 Markdown（功能对比、定价格局、战斗卡都写进同一份），再转成 PDF 交给用户。聊天里只给一句话结论和 3 个最重要判断，并附上 PDF。不要对用户解释章节结构。"
+
+policy:
+  allow_implicit_invocation: true
